@@ -1,3 +1,14 @@
+# This is a fork of Janus in order to make it perfect for my usage (
+javascript, coffee-script, mercurial, html5, css3, java, groovy, scala, ruby, ...)
+
+
+Installation 
+------------
+
+  `curl https://raw.github.com/Filirom1/janus/master/bootstrap.sh -o - | sh`
+
+===> The original project
+
 # Janus: Carlhuda's vim Distribution
 
 This is a basic distribution of vim plugins and tools intended to be run
