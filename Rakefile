@@ -158,6 +158,8 @@ vim_plugin_task "scala",            "git://github.com/bdd/vim-scala.git"
 vim_plugin_task "gist-vim",         "git://github.com/mattn/gist-vim.git"
 vim_plugin_task "html5",            "git://github.com/othree/html5.vim.git"
 vim_plugin_task "zencoding",        "git://github.com/mattn/zencoding-vim.git"
+vim_plugin_task "vim-css-color",    "git://github.com/ap/vim-css-color.git"
+
 #vim_plugin_task "hammer",           "git://github.com/robgleeson/hammer.vim.git" do
 #  sh "gem install github-markup redcarpet"
 #end
