@@ -150,7 +150,7 @@ vim_plugin_task "unimpaired",       "https://github.com/tpope/vim-unimpaired.git
 vim_plugin_task "searchfold",       "https://github.com/vim-scripts/searchfold.vim.git"
 vim_plugin_task "irblack",          "https://github.com/wgibbs/vim-irblack.git"
 vim_plugin_task "vim-coffee-script","https://github.com/kchmck/vim-coffee-script.git"
-vim_plugin_task "syntastic2",       "https://github.com/Filirom1/syntastic2.git"
+vim_plugin_task "syntastic",       "https://github.com/scrooloose/syntastic.git"
 vim_plugin_task "puppet",           "https://github.com/ajf/puppet-vim.git"
 vim_plugin_task "gist-vim",         "https://github.com/mattn/gist-vim.git"
 vim_plugin_task "html5",            "https://github.com/othree/html5.vim.git"
