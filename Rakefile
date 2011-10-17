@@ -126,7 +126,6 @@ end
 
 vim_plugin_task "ack.vim",          "https://github.com/mileszs/ack.vim.git"
 vim_plugin_task "color-sampler",    "https://github.com/vim-scripts/Color-Sampler-Pack.git"
-vim_plugin_task "conque",           "http://conque.googlecode.com/files/conque_1.1.tar.gz"
 vim_plugin_task "fugitive",         "https://github.com/tpope/vim-fugitive.git"
 vim_plugin_task "git",              "https://github.com/tpope/vim-git.git"
 vim_plugin_task "haml",             "https://github.com/tpope/vim-haml.git"
@@ -141,8 +140,6 @@ vim_plugin_task "solarized",        "https://github.com/altercation/vim-colors-s
 vim_plugin_task "supertab",         "https://github.com/ervandew/supertab.git"
 vim_plugin_task "cucumber",         "https://github.com/tpope/vim-cucumber.git"
 vim_plugin_task "textile",          "https://github.com/timcharper/textile.vim.git"
-vim_plugin_task "rails",            "https://github.com/tpope/vim-rails.git"
-vim_plugin_task "rspec",            "https://github.com/taq/vim-rspec.git"
 vim_plugin_task "zoomwin",          "https://github.com/vim-scripts/ZoomWin.git"
 vim_plugin_task "snipmate",         "https://github.com/garbas/vim-snipmate.git"
 vim_plugin_task "snipmate-tlib",    "https://github.com/tomtom/tlib_vim.git"
@@ -152,12 +149,10 @@ vim_plugin_task "markdown",         "https://github.com/tpope/vim-markdown.git"
 vim_plugin_task "align",            "https://github.com/tsaleh/vim-align.git"
 vim_plugin_task "unimpaired",       "https://github.com/tpope/vim-unimpaired.git"
 vim_plugin_task "searchfold",       "https://github.com/vim-scripts/searchfold.vim.git"
-vim_plugin_task "endwise",          "https://github.com/tpope/vim-endwise.git"
 vim_plugin_task "irblack",          "https://github.com/wgibbs/vim-irblack.git"
 vim_plugin_task "vim-coffee-script","https://github.com/kchmck/vim-coffee-script.git"
 vim_plugin_task "syntastic2",       "https://github.com/MarcWeber/syntastic2.git"
 vim_plugin_task "puppet",           "https://github.com/ajf/puppet-vim.git"
-vim_plugin_task "scala",            "https://github.com/bdd/vim-scala.git"
 vim_plugin_task "gist-vim",         "https://github.com/mattn/gist-vim.git"
 vim_plugin_task "html5",            "https://github.com/othree/html5.vim.git"
 vim_plugin_task "zencoding",        "https://github.com/mattn/zencoding-vim.git"
@@ -217,11 +212,6 @@ vim_plugin_task "mustache" do
   sh "curl https://raw.github.com/defunkt/mustache/master/contrib/mustache.vim > syntax/mustache.vim"
   File.open(File.expand_path('../ftdetect/mustache.vim', __FILE__), 'w') do |file|
     file << "au BufNewFile,BufRead *.mustache        setf mustache"
-  end
-end
-vim_plugin_task "arduino","https://github.com/vim-scripts/Arduino-syntax-file.git" do
-  File.open(File.expand_path('../ftdetect/arduino.vim', __FILE__), 'w') do |file|
-    file << "au BufNewFile,BufRead *.pde             setf arduino"
   end
 end
 vim_plugin_task "vwilight" do
