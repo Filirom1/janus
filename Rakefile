@@ -138,7 +138,6 @@ vim_plugin_task "taglist",          "https://github.com/vim-scripts/taglist.vim.
 vim_plugin_task "vividchalk",       "https://github.com/tpope/vim-vividchalk.git"
 vim_plugin_task "solarized",        "https://github.com/altercation/vim-colors-solarized.git"
 vim_plugin_task "supertab",         "https://github.com/ervandew/supertab.git"
-vim_plugin_task "cucumber",         "https://github.com/tpope/vim-cucumber.git"
 vim_plugin_task "textile",          "https://github.com/timcharper/textile.vim.git"
 vim_plugin_task "zoomwin",          "https://github.com/vim-scripts/ZoomWin.git"
 vim_plugin_task "snipmate",         "https://github.com/garbas/vim-snipmate.git"
