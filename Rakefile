@@ -157,7 +157,10 @@ vim_plugin_task "html5",            "https://github.com/othree/html5.vim.git"
 vim_plugin_task "zencoding",        "https://github.com/mattn/zencoding-vim.git"
 vim_plugin_task "vim-css-color",    "https://github.com/ap/vim-css-color.git"
 vim_plugin_task "vim-css3-syntax",  "https://github.com/hail2u/vim-css3-syntax.git"
-
+vim_plugin_task "vim-handlebars",   "https://github.com/nono/vim-handlebars.git"
+vim_plugin_task "vim-stylus",       "https://github.com/vim-scripts/vim-stylus.git"
+vim_plugin_task "vim-jade",         "https://github.com/digitaltoad/vim-jade.git"
+vim_plugin_task "vim-less",         "https://github.com/groenewege/vim-less.git"
 
 #vim_plugin_task "hammer",           "git://github.com/robgleeson/hammer.vim.git" do
 #  sh "gem install github-markup redcarpet"
