@@ -1,6 +1,6 @@
 The best IDE for Linux and MacOsX users : ViM :D
 
-This is a fork of Janus ViM distrib for web developpement.
+This is a fork of Janus ViM distrib for web development.
 
 To use this ViM distrib you will need:
 
