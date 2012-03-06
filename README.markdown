@@ -1,11 +1,19 @@
-# This is a fork of Janus in order to make it perfect for my usage (
-javascript, coffee-script, mercurial, html5, css3, java, groovy, scala, ruby, ...)
+The best IDE for Linux and MacOsX users : ViM :D
 
+This is a fork of Janus ViM distrib for web developpement.
 
-Installation 
+To use this ViM distrib you will need:
+
+* ruby and gems
+* ctags
+* jshint
+* and vim of course
+
+Installation
 ------------
 
   `curl https://raw.github.com/Filirom1/janus/master/bootstrap.sh -o - | sh`
+
 
 ===> The original project
 
